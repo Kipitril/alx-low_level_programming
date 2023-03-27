@@ -2,8 +2,8 @@
 
 /**
  * print_array - prints array
- *@a: input
- *@n: number of valus
+ * @a: input
+ * @n: number of valus
  */
 void print_array(int *a, int n)
 {

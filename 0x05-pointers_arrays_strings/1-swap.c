@@ -2,10 +2,10 @@
 
 /**
  * swap_int - swaps values of two ints
- * 2a: int a
+ * @a: int a
  * @b: int b
  */
-void swap-int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int q;
 	q = *a;
