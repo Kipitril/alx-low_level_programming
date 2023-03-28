@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_array - prints array
- * @a: input
- * @n: number of valus
+ * print_array - prints elements of array
+ * @a: array
+ * @n: number of values to be printed
  */
 void print_array(int *a, int n)
 {
