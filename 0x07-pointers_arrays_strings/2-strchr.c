@@ -11,6 +11,7 @@
 char *_strchr(char *s, char c)
 {
 	int index;
+
 	index = 0;
 
 	while (s[index] != '\0')
@@ -19,7 +20,8 @@ char *_strchr(char *s, char c)
 		{
 			return (s + index);
 		}
-		index++:
+		index++;
+
 	}
 	if (s[index] == c)
 	{
