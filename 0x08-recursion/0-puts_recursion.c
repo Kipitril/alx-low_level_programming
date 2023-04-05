@@ -6,12 +6,12 @@
  * Return: string
  */
 
-void _puts_recursion(char *str)
+void _puts_recursion(char s*)
 {
-	if (*str)
+	if (*s)
 	{
-		_putchar(*str);
-		_puts_recursion(str + 1);
+		_putchar(s*);
+		_puts_recursion(s + 1);
 	}
 	else
 	_putchar('\n');
